@@ -1,0 +1,45 @@
+header {
+    background-color: rgb(235, 171, 148);
+    border: 2px solid red;
+}
+header div:first-child>span>a {
+    color: yellow ;
+    font-size: 50px ;
+    height: 30px;
+    text-decoration: none;
+}
+header>div:last-child>span>a {
+    color: red;
+    font-size: 35px;
+    margin-right: 5px;
+    text-decoration: none;
+}
+header>div:last-child>span:last-child>a {
+    color: green;
+    font-size: 50px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+main{
+    background-color: darkkhaki;
+    padding: 30px ;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+footer{
+    background-color: cornflowerblue;
+    padding: 50px;
+    margin-top: 30px;
+    border: 2px solid blue;
+
+}
+footer div{
+    margin: auto;
+    background-color: brown;
+    width: 500px;
+    padding: 25px;
+}
